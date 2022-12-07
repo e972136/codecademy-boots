@@ -19,7 +19,7 @@ public class Boot {
     private Float size;
 
     @Column(name = "QUANTITY")
-    private Integer Quantity;
+    private Integer quantity;
 
     @Column(name = "MATERIAL")
     private String material;
@@ -49,11 +49,11 @@ public class Boot {
     }
 
     public Integer getQuantity() {
-        return Quantity;
+        return quantity;
     }
 
     public void setQuantity(Integer quantity) {
-        Quantity = quantity;
+        this.quantity = quantity;
     }
 
     public String getMaterial() {
